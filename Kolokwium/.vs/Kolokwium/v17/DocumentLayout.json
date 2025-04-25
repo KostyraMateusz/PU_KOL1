@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mateusz\\Desktop\\PU_KOL1\\Kolokwium\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB21705A-4E50-4137-95FE-8FA3507CB80F}|..\\BLL_EF\\BLL_EF.csproj|c:\\users\\mateusz\\desktop\\pu_kol1\\bll_ef\\historiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB21705A-4E50-4137-95FE-8FA3507CB80F}|..\\BLL_EF\\BLL_EF.csproj|c:\\users\\mateusz\\desktop\\pu_kol1\\bll_ef\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\PU_KOL1\\BLL_EF\\HistoriaService.cs",
+              "RelativeDocumentMoniker": "..\\BLL_EF\\HistoriaService.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\PU_KOL1\\BLL_EF\\HistoriaService.cs*",
+              "RelativeToolTip": "..\\BLL_EF\\HistoriaService.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:19:01.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\PU_KOL1\\BLL_EF\\StudentService.cs",
+              "RelativeDocumentMoniker": "..\\BLL_EF\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\PU_KOL1\\BLL_EF\\StudentService.cs",
+              "RelativeToolTip": "..\\BLL_EF\\StudentService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:11:14.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 105,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1179,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1179,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+CREATE PROCEDURE DodajStudenta
+    @Imie NVARCHAR(100),
+    @Nazwisko NVARCHAR(100),
+    @IDGrupy INT = NULL
+AS
+BEGIN
+    INSERT INTO Studenci (Imie, Nazwisko, IDGrupy)
+    VALUES (@Imie, @Nazwisko, @IDGrupy)
+END

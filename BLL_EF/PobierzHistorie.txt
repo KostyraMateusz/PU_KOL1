@@ -1,0 +1,18 @@
+CREATE OR ALTER PROCEDURE PobierzHistorie
+    @Page INT,
+    @PageSize INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT *
+    FROM (
+        SELECT 
+            ROW_NUMBER() OVER (ORDER BY Data DESC) AS RowNum,
+            ID, Imie, Nazwisko, IDGrupy, TypAkcji, Data
+        FROM Historie
+    ) AS HistoriaNumerowana
+    WHERE RowNum BETWEEN ((@Page - 1) * @PageSize + 1)
+                      AND (@Page * @PageSize)
+    ORDER BY RowNum;
+END

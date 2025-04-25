@@ -1,0 +1,28 @@
+CREATE TRIGGER TR_StudentHistoria
+ON Studenci
+AFTER UPDATE, DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Historie (Imie, Nazwisko, IDGrupy, TypAkcji, Data)
+    SELECT
+        d.Imie,
+        d.Nazwisko,
+        d.IDGrupy,
+        'Edycja',
+        GETDATE()
+    FROM deleted d
+    INNER JOIN inserted i ON d.ID = i.ID;
+
+    INSERT INTO Historie (Imie, Nazwisko, IDGrupy, TypAkcji, Data)
+    SELECT
+        d.Imie,
+        d.Nazwisko,
+        d.IDGrupy,
+        'Usuwanie',
+        GETDATE()
+    FROM deleted d
+    LEFT JOIN inserted i ON d.ID = i.ID
+    WHERE i.ID IS NULL;
+END
